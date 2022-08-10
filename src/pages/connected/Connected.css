@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+.Titre{
+    text-align: center;
+	font-size: 5vh;
+	color: rgb(36,3,124);
+}
+.options, .list{
+    background-color: rgb(36,3,124);
+	color: rgb(183,219,255);
+}
+.options{
+    width: 200px;
+    height: 85vh;
+	margin-top: 0;
+    position: fixed;
+    bottom: 0;
+}
+.list{
+	height: 85vh;
+	margin-top: 0;
+    position: fixed;
+    bottom: 0;
+	left: 210px;
+	right:0;
+    padding: 0 10px;
+}
+.manage, .settings, .add, .logOut{
+	font-size: 20px;
+    padding: 10px 0px 0 10px;
+	margin: 0;
+	height: 40px;
+}
+.manage:active, .settings:active, .add:active, .logOut:active{
+	background-color: rgb(183,219,255);
+	color: rgb(36,3,124);
+}
+.manage:hover, .settings:hover, .add:hover, .logOut:hover{
+	font-size: 22px;
+}
+.logOut{
+	background-color: rgb(36,3,124);
+	color: rgb(183,219,255);
+	border: none;
+	width: 200px;
+	text-align: left;
+}

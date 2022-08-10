@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+}
+h1{
+	font-size: 10vh;
+	margin-top: 0;
+	color: rgb(183,219,255);
+}
+.NewAccount{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.InputUser{
+    max-width: 500px;
+	width: 75%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color: rgb(36,3,124);
+}
+.InputText{
+	height: 30px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 2vh;
+    margin-top: 0;
+    padding-left: 10px;
+	border: white solid 1px;
+}
+.Cancel{
+    text-decoration: none;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 8px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    margin-right: 20px;
+}
+.SignUp, .Cancel {
+	height: 40px;
+	width: 140px;
+	border-radius: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: rgb(128,0,3);
+	color: rgb(183,219,255);
+}
+.SignUp:hover, .Cancel:hover{
+    transform: scale(1.2);
+}
+.SignUp:active, .Cancel:active{
+	background-color: rgb(183,219,255);
+	color: rgb(128,0,3);
+}
+.Submit{
+	display: flex;
+	margin-top: 2vh;
+}

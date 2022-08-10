@@ -1,0 +1,83 @@
+.SignIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Titre1{
+  color: rgb(183,219,255);
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-size: 8vh;
+}
+input{
+	height: 40px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 2vh;
+  margin-top: 0;
+  padding-left: 10px;
+	border: white solid 1px;
+}
+p{
+	color: rgb(183,219,255);
+  font-size: 15px;
+}
+.createAccount{
+    text-decoration: none;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 0 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.signIn, .createAccount{
+  height: 40px;
+  width: 140px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(128,0,3);
+  color: rgb(183,219,255);
+  margin-top: 10px;
+
+}
+.signIn:hover, .createAccount:hover{
+  transform: scale(1.2);
+}
+.signIn:active, .createAccount:active{
+	background-color: rgb(183,219,255);
+	color: rgb(128,0,3);
+}
+.App-header {
+	max-width: 500px;
+	width: 75%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(36,3,124);
+}
+a{
+  color: rgb(0, 68, 255);
+}

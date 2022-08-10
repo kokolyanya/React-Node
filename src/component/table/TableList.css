@@ -1,0 +1,14 @@
+thead{
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    height: 40px;
+    border-bottom: 2px solid;
+    padding: 10px 15px;
+}
+table{
+    margin-top: 10px;
+    background-color: rgb(183,219,255);
+    color: rgb(36,3,124);
+}

@@ -1,0 +1,92 @@
+.list{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.InputUser {
+    position:fixed;
+	width: 70vw;
+	max-width: 500px;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+	border: rgb(183,219,255) 2px solid;
+    border-top-width: 0;
+    background-color: rgb(36,3,124);
+    z-index: 1;
+} 
+/* .InputNumber, */
+.InputGroup{
+	width: 60px;
+    height: 20px;
+    margin:auto 10px;
+    border-radius: 0;
+    padding-left: 0;
+}
+.InputGroup{
+	width: 90px;
+}
+.InputText{
+    height: 30px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 2vh;
+    margin-top: 0;
+    padding-left: 10px;
+	border: white solid 1px;
+}
+.cancel{
+    text-decoration: none;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 7px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.ok, .cancel{
+	width: 150px;
+	height: 35px;
+	border-radius: 30px;
+    font-size: 15px;
+	font-weight: bold;
+    background-color: rgb(128,0,3);
+	color: rgb(183,219,255);
+	margin-right: 10px;
+}
+.ok:hover, .cancel:hover{
+    transform: scale(1.2);
+}
+.ok:active, .cancel:active{
+	background-color: rgb(183,219,255);
+	color: rgb(128,0,3);
+}
+.Submit{
+	margin-top: 2vh;
+}
+.Group{
+    margin-top: 30px;
+	margin-bottom: 2vh;
+	font-size: 20px;
+	color: rgb(183,219,255);
+}
