@@ -1,3 +1,6 @@
+Site utilisant react pour le front-end et node pour son back-end. Il concerne la gestion d'utilisateurs.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
